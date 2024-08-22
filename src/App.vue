@@ -4,7 +4,7 @@ import './style.css'
 </script>
 
 <template>
-  <div style="display: flex; justify-content: center; margin-top: 4rem;">
+  <div style="display: flex; justify-content: center; margin-top: 4rem; margin-bottom: 4rem;">
     <div style="display: inline-flex; justify-content: space-around; width: 40rem;">
       <router-link class="link" :to="{ path: appRoutes.home}">Wie ben ik?</router-link>
       <router-link class="link" :to="{ path: appRoutes.experience}">Mijn ervaringen</router-link>

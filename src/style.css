@@ -15,7 +15,16 @@ body {
     font-weight: bolder;
     text-decoration: none;
 }
-
 .link:hover {
     opacity: 0.8;
+}
+
+.row-item {
+    flex: 1 1 0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
